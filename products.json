@@ -1,0 +1,44 @@
+[
+    {
+      "name": "iphone",
+      "price": 154,
+      "featured": true,
+      "company": "nike"
+    },
+    {
+        "name": "air jordan",
+        "price": 54,
+        "featured": true,
+        "company": "nike"
+      },
+      {
+        "name": "jordan4",
+        "price": 167,
+        
+        "company": "nike"
+      },
+      {
+          "name": "jordan3",
+          "price": 67,
+          
+          "company": "nike"
+        },
+        {
+          "name": "jordan2",
+          "price": 39,
+          
+          "company": "nike"
+        },
+        {
+            "name": "jordan1",
+            "price": 390,
+            
+            "company": "nike"
+          },
+      {
+        "name": "raju",
+        "price": 540,
+        "featured": false,
+        "company": "raju"
+      }
+]

@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   res.send("hi iam live raju bhai")
 });
 
-app.use(cors({origin:"http://localhost:5173/"},"/api/products", products_routes) )
+app.use(cors({origin:"http://localhost:5173/",}) )
  
 const Start = async () => {
     try{

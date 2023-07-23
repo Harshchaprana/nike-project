@@ -12,8 +12,8 @@ app.get("/", (req, res) => {
 });
 
 app.use(cors({
-  origin:"http://localhost:5173",
-}),"/api/products", products_routes )
+  origin:"http://localhost:5173","/api/products", products_routes 
+}))
  
 const Start = async () => {
     try{

@@ -5,7 +5,7 @@ const connectDB = (uri) => {
     
     return mongoose.connect(uri,{
         useNewUrlParser: true,
-        useUniFiedTopology:true,
+        useUnifiedTopology:true,
     });
 };
 

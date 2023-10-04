@@ -7,7 +7,7 @@ const Nikeshoue = require("../models/product")
 const {
     getAllProducts
     ,getAllProductsTesting
-} = require("../controllers/products"); 
+} = require("../controllers/Products"); 
 
 router.route("/").get(getAllProducts);
 router.route("/testing").get(getAllProductsTesting);
